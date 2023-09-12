@@ -13,6 +13,19 @@
 		57777C1B2AAE993B0059B443 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57777C192AAE993B0059B443 /* Main.storyboard */; };
 		57777C1D2AAE993E0059B443 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57777C1C2AAE993E0059B443 /* Assets.xcassets */; };
 		57777C202AAE993E0059B443 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57777C1E2AAE993E0059B443 /* LaunchScreen.storyboard */; };
+		57777C2F2AAEAE3A0059B443 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57777C312AAEAE3A0059B443 /* Localizable.strings */; };
+		57777C352AAEBABE0059B443 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57777C342AAEBABE0059B443 /* String+Extension.swift */; };
+		57777C382AAEBDCD0059B443 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57777C3A2AAEBDCD0059B443 /* InfoPlist.strings */; };
+		57777C942AAFED610059B443 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57777C932AAFED610059B443 /* LoginViewController.swift */; };
+		57777C962AAFF2FB0059B443 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57777C952AAFF2FB0059B443 /* Observable.swift */; };
+		57777C982AAFFE000059B443 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57777C972AAFFE000059B443 /* SampleViewController.swift */; };
+		57777C9A2AB001560059B443 /* SampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57777C992AB001560059B443 /* SampleViewModel.swift */; };
+		57777C9C2AB00E450059B443 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57777C9B2AB00E450059B443 /* LoginViewModel.swift */; };
+		57777C9F2AB02A680059B443 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57777C9E2AB02A680059B443 /* Photo.swift */; };
+		57777CA12AB02A990059B443 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57777CA02AB02A990059B443 /* APIService.swift */; };
+		57777CA32AB02B660059B443 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57777CA22AB02B660059B443 /* PhotoViewController.swift */; };
+		57777CA52AB02DAC0059B443 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57777CA42AB02DAC0059B443 /* PhotoViewModel.swift */; };
+		57777CA82AB030C40059B443 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 57777CA72AB030C40059B443 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,27 @@
 		57777C1C2AAE993E0059B443 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57777C1F2AAE993E0059B443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57777C212AAE993E0059B443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57777C272AAE9CAE0059B443 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		57777C282AAE9CAE0059B443 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		57777C292AAE9CBC0059B443 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		57777C2A2AAE9CBC0059B443 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		57777C2C2AAE9DB70059B443 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		57777C302AAEAE3A0059B443 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		57777C322AAEAE3C0059B443 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		57777C332AAEAE3C0059B443 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		57777C342AAEBABE0059B443 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		57777C392AAEBDCD0059B443 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57777C3B2AAEBDCE0059B443 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57777C3C2AAEBDCF0059B443 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57777C932AAFED610059B443 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		57777C952AAFF2FB0059B443 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		57777C972AAFFE000059B443 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		57777C992AB001560059B443 /* SampleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewModel.swift; sourceTree = "<group>"; };
+		57777C9B2AB00E450059B443 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		57777C9E2AB02A680059B443 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		57777CA02AB02A990059B443 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		57777CA22AB02B660059B443 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		57777CA42AB02DAC0059B443 /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57777CA82AB030C40059B443 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +91,43 @@
 		57777C122AAE993B0059B443 /* SeSAC3UnsplashProject */ = {
 			isa = PBXGroup;
 			children = (
+				57777C9D2AB02A5D0059B443 /* Photo */,
+				57777C922AAFED460059B443 /* Login */,
 				57777C132AAE993B0059B443 /* AppDelegate.swift */,
 				57777C152AAE993B0059B443 /* SceneDelegate.swift */,
 				57777C172AAE993B0059B443 /* ViewController.swift */,
+				57777C312AAEAE3A0059B443 /* Localizable.strings */,
+				57777C3A2AAEBDCD0059B443 /* InfoPlist.strings */,
 				57777C192AAE993B0059B443 /* Main.storyboard */,
 				57777C1C2AAE993E0059B443 /* Assets.xcassets */,
 				57777C1E2AAE993E0059B443 /* LaunchScreen.storyboard */,
 				57777C212AAE993E0059B443 /* Info.plist */,
+				57777C342AAEBABE0059B443 /* String+Extension.swift */,
 			);
 			path = SeSAC3UnsplashProject;
+			sourceTree = "<group>";
+		};
+		57777C922AAFED460059B443 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				57777C932AAFED610059B443 /* LoginViewController.swift */,
+				57777C9B2AB00E450059B443 /* LoginViewModel.swift */,
+				57777C952AAFF2FB0059B443 /* Observable.swift */,
+				57777C972AAFFE000059B443 /* SampleViewController.swift */,
+				57777C992AB001560059B443 /* SampleViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		57777C9D2AB02A5D0059B443 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				57777C9E2AB02A680059B443 /* Photo.swift */,
+				57777CA02AB02A990059B443 /* APIService.swift */,
+				57777CA22AB02B660059B443 /* PhotoViewController.swift */,
+				57777CA42AB02DAC0059B443 /* PhotoViewModel.swift */,
+			);
+			path = Photo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +146,9 @@
 			dependencies = (
 			);
 			name = SeSAC3UnsplashProject;
+			packageProductDependencies = (
+				57777CA72AB030C40059B443 /* Kingfisher */,
+			);
 			productName = SeSAC3UnsplashProject;
 			productReference = 57777C102AAE993B0059B443 /* SeSAC3UnsplashProject.app */;
 			productType = "com.apple.product-type.application";
@@ -109,8 +175,13 @@
 			knownRegions = (
 				en,
 				Base,
+				ko,
+				ja,
 			);
 			mainGroup = 57777C072AAE993B0059B443;
+			packageReferences = (
+				57777CA62AB030C40059B443 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 57777C112AAE993B0059B443 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +197,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				57777C202AAE993E0059B443 /* LaunchScreen.storyboard in Resources */,
+				57777C2F2AAEAE3A0059B443 /* Localizable.strings in Resources */,
 				57777C1D2AAE993E0059B443 /* Assets.xcassets in Resources */,
 				57777C1B2AAE993B0059B443 /* Main.storyboard in Resources */,
+				57777C382AAEBDCD0059B443 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +211,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57777C352AAEBABE0059B443 /* String+Extension.swift in Sources */,
 				57777C182AAE993B0059B443 /* ViewController.swift in Sources */,
 				57777C142AAE993B0059B443 /* AppDelegate.swift in Sources */,
+				57777C942AAFED610059B443 /* LoginViewController.swift in Sources */,
+				57777CA12AB02A990059B443 /* APIService.swift in Sources */,
+				57777CA32AB02B660059B443 /* PhotoViewController.swift in Sources */,
+				57777C9F2AB02A680059B443 /* Photo.swift in Sources */,
+				57777C962AAFF2FB0059B443 /* Observable.swift in Sources */,
 				57777C162AAE993B0059B443 /* SceneDelegate.swift in Sources */,
+				57777C9A2AB001560059B443 /* SampleViewModel.swift in Sources */,
+				57777CA52AB02DAC0059B443 /* PhotoViewModel.swift in Sources */,
+				57777C982AAFFE000059B443 /* SampleViewController.swift in Sources */,
+				57777C9C2AB00E450059B443 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +234,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				57777C1A2AAE993B0059B443 /* Base */,
+				57777C272AAE9CAE0059B443 /* ko */,
+				57777C292AAE9CBC0059B443 /* ja */,
+				57777C2C2AAE9DB70059B443 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,8 +245,30 @@
 			isa = PBXVariantGroup;
 			children = (
 				57777C1F2AAE993E0059B443 /* Base */,
+				57777C282AAE9CAE0059B443 /* ko */,
+				57777C2A2AAE9CBC0059B443 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		57777C312AAEAE3A0059B443 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57777C302AAEAE3A0059B443 /* en */,
+				57777C322AAEAE3C0059B443 /* ja */,
+				57777C332AAEAE3C0059B443 /* ko */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		57777C3A2AAEBDCD0059B443 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57777C392AAEBDCD0059B443 /* en */,
+				57777C3B2AAEBDCE0059B443 /* ja */,
+				57777C3C2AAEBDCF0059B443 /* ko */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -170,6 +278,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -230,6 +339,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -358,6 +468,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		57777CA62AB030C40059B443 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		57777CA72AB030C40059B443 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 57777CA62AB030C40059B443 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 57777C082AAE993B0059B443 /* Project object */;
 }
