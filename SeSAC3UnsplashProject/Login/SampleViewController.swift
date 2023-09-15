@@ -43,9 +43,20 @@ extension SampleViewController: UITableViewDataSource {
         _ tableView: UITableView,
         cellForRowAt indexPath: IndexPath
     ) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "sampleCell", for: indexPath)
-        let data = viewModel.cellForRowAt(at: indexPath)
-        cell.textLabel?.text = data.introduce
+        // 이전
+//        let cell = tableView.dequeueReusableCell(withIdentifier: "sampleCell", for: indexPath)
+//        let data = viewModel.cellForRowAt(at: indexPath)
+//        cell.textLabel?.text = data.introduce
+
+        // 이후
+        // SwiftUI의 UI들이 구조체로 이루어져 있어서
+        // UI를 구성할 때 구조체 기반으로 변하고 있다.
+        let cell = UITableViewCell()
+        var content = cell.defaultContentConfiguration()
+        content.text = "테스트"    // textLabel
+        content.secondaryText = "안녕하세요 \(indexPath.row)"    // detailLabel
+        cell.contentConfiguration = content
+
         return cell
     }
 
